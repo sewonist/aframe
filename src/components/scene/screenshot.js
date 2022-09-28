@@ -90,7 +90,8 @@ module.exports.Component = registerComponent('screenshot', {
       wrapS: THREE.ClampToEdgeWrapping,
       wrapT: THREE.ClampToEdgeWrapping,
       format: THREE.RGBAFormat,
-      type: THREE.UnsignedByteType
+      type: THREE.UnsignedByteType,
+      encoding: THREE.sRGBEncoding
     });
   },
 
